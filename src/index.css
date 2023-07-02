@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.block {
+  width: 10vw;
+  height: 50vh;
+  background-color: blue;
+}
+
+span {
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 5px;
+}
